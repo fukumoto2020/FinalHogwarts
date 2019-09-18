@@ -18,9 +18,22 @@
         android:orientation="vertical"
         android:weightSum="3">
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right|top"
+            android:layout_weight="0"
+            android:background="#F9F9FA"
+            android:gravity="center"
+            android:text="ScoreBoard"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="1265dp"
+            android:layout_height="160dp"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="horizontal">
@@ -50,6 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:srcCompat="@tools:sample/avatars" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -102,7 +116,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="horizontal" />
+                    android:orientation="horizontal" >
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -139,6 +155,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         tools:srcCompat="@tools:sample/avatars" />
+
                 </LinearLayout>
             </LinearLayout>
 
@@ -172,6 +189,7 @@
                     android:gravity="center"
                     android:text="Bid:2\nWon:4"
                     android:textStyle="bold" />
+
             </LinearLayout>
         </LinearLayout>
 
@@ -201,6 +219,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 tools:srcCompat="@tools:sample/avatars" />
+
         </LinearLayout>
 
     </LinearLayout>
