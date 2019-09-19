@@ -18,31 +18,40 @@
         android:orientation="vertical"
         android:weightSum="3">
 
-        <Button
-        android:id="@+id/button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_gravity="right|top"
-        android:layout_weight="0"
-        android:background="#F9F9FA"
-        android:gravity="center"
-        android:text="ScoreBoard"
-        android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/quitButton"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_gravity="left|top"
-            android:layout_weight="0"
-            android:background="#F9F9FA"
-            android:gravity="center"
-            android:text="I Quit"
-            android:textSize="18sp" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right|top"
+                android:layout_weight="0"
+                android:background="#F9F9FA"
+                android:gravity="center"
+                android:text="ScoreBoard"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/quitButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left|top"
+                android:layout_marginStart="880dp"
+                android:layout_weight="0"
+                android:background="#F9F9FA"
+                android:gravity="center"
+                android:text="I Quit"
+                android:textSize="18sp" />
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="1265dp"
