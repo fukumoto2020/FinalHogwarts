@@ -19,16 +19,29 @@
         android:weightSum="3">
 
         <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right|top"
+        android:layout_weight="0"
+        android:background="#F9F9FA"
+        android:gravity="center"
+        android:text="ScoreBoard"
+        android:textSize="18sp" />
+
+        <Button
             android:id="@+id/button"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_gravity="right|top"
+            android:layout_gravity="left|top"
             android:layout_weight="0"
             android:background="#F9F9FA"
             android:gravity="center"
-            android:text="ScoreBoard"
+            android:text="I Quit"
             android:textSize="18sp" />
 
         <LinearLayout
